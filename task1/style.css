@@ -1,0 +1,169 @@
+body {
+    font-family: Arial, sans-serif;
+    overflow-y: hidden;
+}
+
+
+
+.container {
+
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo-container {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+   
+    width: 1116px;
+    padding-bottom: 20px;
+}
+
+
+
+.header {
+    text-align: center;
+    font-size: 28px;
+    padding-top: 22px;
+    font-weight: 700;
+}
+
+
+
+.task {
+
+    padding: 10px 0;
+}
+
+.add-task {
+    padding: 10px 0;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    
+}
+
+.a-t-input {
+    width: 66%;
+    border: 1px solid #ccc
+}
+
+.delete-input input {
+    width: 101%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.delete-input {
+    position: relative;
+    width: 82%;
+    margin: auto;
+}
+
+
+.task-label {
+    padding: 5px;
+    height: 31px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+
+.task-label i {
+    margin-left: auto;
+    padding: 0 10px;
+    cursor: pointer;
+}
+
+
+.delete {
+    position: absolute;
+    top: 50%;
+    right: 5px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    height: 27px;
+    background-color: rgb(255, 25, 25);
+  
+   
+}
+
+.fa-trash {
+    color: rgb(255, 255, 255);
+
+}
+
+.fa {
+    padding: 2px;
+    background-color: #ffffff;
+    color: #1f7c28;
+   
+    padding: 0;
+    cursor: pointer;
+    margin-left: 2px;
+}
+
+
+input[type="text"] {
+    padding: 5px;
+    height: 31px;
+
+}
+
+
+
+#btplus {
+    height: 30px;
+    background-color: #1f7c28;
+    border-color: #1f7c28;
+    margin-left: 4px;
+    
+  
+}
+
+
+.search-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.search-input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 66%;
+   
+    
+}
+.fa-magnifying-glass{
+    position: absolute;
+    right: 120px;
+    COLOR: grey;
+   
+    
+}
+
+.search-input::placeholder::before {
+    
+    font-family: FontAwesome;
+    position: absolute;
+    padding: 5px;
+    color: #999;
+}
+.search{
+    background-color: white;
+    height: 27px;
+    border: 1px solid #ccc;
+}
+
+
+
+
