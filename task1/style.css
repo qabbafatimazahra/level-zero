@@ -90,6 +90,7 @@ body {
     cursor: pointer;
     height: 27px;
     background-color: rgb(255, 25, 25);
+    border-color: rgb(246, 74, 74);
   
    
 }
@@ -118,10 +119,10 @@ input[type="text"] {
 
 
 
-#btplus {
+.btplus {
     height: 30px;
     background-color: #1f7c28;
-    border-color: #1f7c28;
+    border-color: #0cbc1d;
     margin-left: 4px;
     
   
@@ -144,8 +145,8 @@ input[type="text"] {
     
 }
 .fa-magnifying-glass{
-    position: absolute;
-    right: 190px;
+    position: relative;
+right: 27px; 
     COLOR: grey;
    
     
